@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7;
+  color: #323330;
+}
+
+.carousel-inner {
+  padding-top: 2rem;
+}
+
+.carousel-item img {
+  display: block;
+  height: 500px;
+}
+
+.container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: lightgray;
+}
+
+.container1 a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.container1 a:hover {
+  text-decoration: underline;
+}
+
+.container1 .pt {
+  padding-top: 1rem;
+}
+
+.container1 h2 {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.container1 .book {
+  background-color: #fff;
+  padding: 2rem;
+  border: solid 1px #ccd0d4;
+  border-radius: 0.3rem;
+  text-align: center;
+  margin: 1rem;
+  width: 30%;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.container1 img {
+  /* border-radius: 50%; */
+  padding: 1rem;
+  width: 50%;
+  background-color: #f4f4f4;
+}
+
+.bg1 {
+  background-color: #b1b3ac;
+}
+
+.navigation {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+.category-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0;
+}
+
+.category-list .category {
+  cursor: pointer;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+.book-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.book-list .book {
+  border: 1px solid #483d3d;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+.book-list .book img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.container .table {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.container .table th, .container .table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.container .table th {
+  background-color: #f2f2f2;
+}
+
+.container .table .text-right {
+  text-align: right;
+}
+
+.container a {
+  display: block;
+  margin-top: 20px;
+}
+
+.bg {
+  background-color: #ccd0d4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.container .bookstore-info {
+  margin-bottom: 30px;
+}
+
+.container .bookstore-info p {
+  margin: 10px 0;
+}
+
+.container form {
+  text-align: left;
+}
+
+.container form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.container form input,
+.container form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.container form button:hover {
+  background-color: #0056b3;
+}
+/*# sourceMappingURL=style.css.map */

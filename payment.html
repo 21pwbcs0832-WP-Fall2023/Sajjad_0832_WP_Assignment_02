@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Payment Receipt</title>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Payment Receipt</h2>
+
+    <!-- Table to display book details -->
+    <table class="table .table-bordered" c>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody id="receiptTableBody">
+        <!-- Book details will be dynamically populated using JavaScript -->
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2" class="text-right"><strong>Total Amount: $<span id="totalAmount">0.00</span></strong></td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <!-- Link to return to the Home page -->
+    <a href="index.html">Return to Home Page</a>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+  <script src="script2.js"></script>
+  <script src="script3.js"></script> <!-- Include the script for payment-specific functionality -->
+</body>
+</html>
